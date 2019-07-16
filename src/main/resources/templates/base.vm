@@ -9,7 +9,7 @@
 -->
 <html lang="$!currentLocale.language" dir="$!langDirection">
 	<head>
-		<title>$!APPNAME | $!title</title>
+		<title>守望工坊问答 | $!title</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -31,12 +31,12 @@
 		<link href="$!request.contextPath/feed.xml" rel="alternate" type="application/atom+xml" title="New questions feed">
 		<link href="$!imageslink/logowhite.png" rel="image_src">
 		<link href="$!imageslink/logowhite.png" rel="apple-touch-icon">
-		<link href="$!faviconUrl" rel="shortcut icon">
-		<link href="$!styleslink/materialize.min.css" rel="stylesheet">
-		<link href="$!styleslink/font-awesome.min.css" rel="stylesheet">
-		<link href="$!styleslink/easymde.min.css" rel="stylesheet">
+		<link href="$!imageslink/favicon.ico" rel="shortcut icon">
+		<link href="https://files.magicbox9.com/ask/css/materialize.min.css" rel="stylesheet">
+		<link href="https://files.magicbox9.com/ask/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://files.magicbox9.com/ask/css/easymde.min.css" rel="stylesheet">
 		#if ($includeHighlightJS)
-		<link href="$!styleslink/highlighting.css" rel="stylesheet">
+		<link href="https://files.magicbox9.com/ask/css/github.min.css" rel="stylesheet">
 		#end
 		<link href="$!stylesheetUrl" rel="stylesheet" media="screen">
 		#if($!langDirection == "RTL")
@@ -329,13 +329,13 @@
 			</div>
 		</div>
 
-		<script nonce="$cspNonce" src="$!scriptslink/jquery.min.js"></script>
-		<script nonce="$cspNonce" src="$!scriptslink/diff_match_patch.js"></script>
-		<script nonce="$cspNonce" src="$!scriptslink/materialize.min.js"></script>
+		<script nonce="$cspNonce" src="https://files.magicbox9.com/ask/js/jquery.min.js"></script>
+		<script nonce="$cspNonce" src="https://files.magicbox9.com/ask/js/diff_match_patch.js"></script>
+		<script nonce="$cspNonce" src="https://files.magicbox9.com/ask/js/materialize.min.js"></script>
 		#if ($includeHighlightJS)
-		<script nonce="$cspNonce" src="$!scriptslink/highlight.min.js"></script>
+		<script nonce="$cspNonce" src="https://files.magicbox9.com/ask/js/highlight.min.js"></script>
 		#end
-		<script nonce="$cspNonce" src="$!scriptslink/easymde.min.js"></script>
+		<script nonce="$cspNonce" src="https://files.magicbox9.com/ask/js/easymde.min.js"></script>
 		<script nonce="$cspNonce" src="$!scriptslink/scoold.js"></script>
 
 		#if ($request.getServletPath() == "/signin")
