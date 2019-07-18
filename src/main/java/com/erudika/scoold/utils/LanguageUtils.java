@@ -181,7 +181,7 @@ public class LanguageUtils {
 	 */
 	public Map<String, String> getDefaultLanguage() {
 		if (!LANG_CACHE.containsKey(getDefaultLanguageCode())) {
-			logger.info("Default language map not set, loading English.");
+			logger.info("Default language map not set, loading Chinese.");
 			Map<String, String> deflang = readLanguageFromFile(getDefaultLanguageCode());
 			if (deflang != null && !deflang.isEmpty()) {
 				LANG_CACHE.put(getDefaultLanguageCode(), deflang);
@@ -207,7 +207,7 @@ public class LanguageUtils {
 	 */
 	public String getDefaultLanguageCode() {
 		if (deflangCode == null) {
-			deflangCode = "en";
+			deflangCode = "zh_CN";
 		}
 		return deflangCode;
 	}
