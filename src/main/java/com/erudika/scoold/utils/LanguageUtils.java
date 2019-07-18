@@ -152,7 +152,7 @@ public class LanguageUtils {
 	 * @return the 2-letter language code
 	 */
 	public String getDefaultLanguageCode() {
-		return "en";
+		return "zh_CN";
 	}
 
 	/**
