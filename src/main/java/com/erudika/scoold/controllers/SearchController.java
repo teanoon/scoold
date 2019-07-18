@@ -130,7 +130,7 @@ public class SearchController {
 				+ "  <ShortName>" + Config.APP_NAME + "</ShortName>\n"
 				+ "  <Description>Search for questions and answers</Description>\n"
 				+ "  <InputEncoding>UTF-8</InputEncoding>\n"
-				+ "  <Image width=\"16\" height=\"16\" type=\"image/x-icon\">http://scoold.com/favicon.ico</Image>\n"
+				+ "  <Image width=\"16\" height=\"16\" type=\"image/x-icon\">https://ask.overwatch-heroes.com/images/favicon.ico</Image>\n"
 				+ "  <Url type=\"text/html\" method=\"get\" template=\"" + ScooldServer.getServerURL()
 				+ "/search?q={searchTerms}\"></Url>\n"
 				+ "</OpenSearchDescription>";

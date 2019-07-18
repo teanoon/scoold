@@ -27,9 +27,24 @@
 		<meta name="twitter:image" content="$!ogimage">
 		<link href="$!request.contextPath/opensearch.xml" title="$!APPNAME" type="application/opensearchdescription+xml" rel="search">
 		<link href="$!request.contextPath/feed.xml" rel="alternate" type="application/atom+xml" title="New questions feed">
-		<link href="$!imageslink/logowhite.png" rel="image_src">
-		<link href="$!imageslink/logowhite.png" rel="apple-touch-icon">
-		<link href="$!imageslink/favicon.ico" rel="shortcut icon">
+		<link rel="apple-touch-icon" sizes="57x57" href="$!imageslink/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="$!imageslink/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="$!imageslink/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="$!imageslink/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="$!imageslink/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="$!imageslink/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="$!imageslink/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="$!imageslink/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="$!imageslink/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="$!imageslink/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="$!imageslink/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="$!imageslink/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="$!imageslink/favicon-16x16.png">
+        <link href="$!imageslink/favicon.ico" rel="shortcut icon">
+        <link rel="manifest" href="$!imageslink/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="$!imageslink/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 		<link href="https://files.magicbox9.com/ask/css/materialize.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://files.magicbox9.com/ask/css/font-awesome.min.css">
 		<link href="https://files.magicbox9.com/ask/css/google-fonts.css" rel="stylesheet">
