@@ -531,8 +531,8 @@ public final class ScooldUtils {
 
 	public String getLanguageCode(HttpServletRequest req) {
 		String cookieLoc = getCookieValue(req, LOCALE_COOKIE);
-		Locale requestLocale = langutils.getProperLocale(req.getLocale().toString());
-		return (cookieLoc != null) ? cookieLoc : requestLocale.getLanguage();
+		// Locale requestLocale = langutils.getProperLocale(req.getLocale().toString());
+		return (cookieLoc != null) ? cookieLoc : "zh_cn";
 	}
 
 	public Locale getCurrentLocale(String langname) {
