@@ -3,6 +3,7 @@
 *.jar
 *.zip
 *.bak
+.idea
 keys.txt
 application.conf
 application-dev.conf
